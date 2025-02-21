@@ -29,7 +29,7 @@ addSingle.onclick = () => {
     count1++;
     localStorage.setItem("Single Count",`${count1}`);
     single_count.innerHTML = `<b>${count1}<b>`;
-    let r = count1 % 10
+    let r = count1 % 108
     if (r === 0 && count1 !== 0) {
         count2++;
         localStorage.setItem("Japa Count",`${count2}`)
