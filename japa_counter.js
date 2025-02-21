@@ -29,16 +29,12 @@ addSingle.onclick = () => {
     count1++;
     localStorage.setItem("Single Count",`${count1}`);
     single_count.innerHTML = `<b>${count1}<b>`;
-    let r = count1 % 108
+    let r = count1 % 10
     if (r === 0 && count1 !== 0) {
         count2++;
         localStorage.setItem("Japa Count",`${count2}`)
         message.innerHTML = `${count2} Round(s) <br> Completed!`;
         noti_panel.style.display = "flex";
-        setTimeout(() => {
-            noti_panel.style.opacity = "1";
-            noti_panel.style.transform = "translateY(0)";
-        }, 50);
         mala_count.innerHTML = `<b>${count2}<b>`;
     }
 };
