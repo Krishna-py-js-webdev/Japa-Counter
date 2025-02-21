@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <link rel="stylesheet" href="japa_counter.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rakkas&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Joan&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rakkas&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Joan&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rakkas&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="upper-part">
+        <div class="head">
+            <img src="Krishna.png" alt="">
+            <h2>JAPA<br>COUNTER</h2>
+            <svg id="reload" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48" fill="none">
+                <path
+                    d="M46 8.00003V20M46 20H34M46 20L36.72 11.28C34.5705 9.12946 31.9113 7.55844 28.9904 6.71358C26.0695 5.86871 22.9822 5.77753 20.0166 6.44855C17.0509 7.11956 14.3036 8.5309 12.0309 10.5509C9.75827 12.5708 8.03434 15.1336 7.02 18M2 40V28M2 28H14M2 28L11.28 36.72C13.4295 38.8706 16.0887 40.4416 19.0096 41.2865C21.9305 42.1313 25.0178 42.2225 27.9834 41.5515C30.9491 40.8805 33.6964 39.4692 35.9691 37.4492C38.2417 35.4292 39.9657 32.8665 40.98 30"
+                    stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+        <div class="counter">
+            <span id="single-count">Single Count</span>
+            <br>
+            <span id="minus-single" style="background-color: white;"><b>-</b></span>
+            <span id="count-single" style="background-color: white;"><b>0</b></span>
+            <span id="add-single" style="background-color: white;"><b>+</b></span>
+            <!-- <br> -->
+            <hr>
+            <span id="Mala-count">Mala Count</span>
+            <br>
+            <span id="minus-Mala" style="background-color: white;"><b>-</b></span>
+            <span id="count-Mala" style="background-color: white;"><b>0</b></span>
+            <span id="add-Mala" style="background-color: white;"><b>+</b></span>
+        </div>
+        <div class="concentration">
+            <span id="concentration">Need more concentration
+                <svg id="more" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 31 34"
+                    fill="none">
+                    <path d="M7.75 12.75L15.5 21.25L23.25 12.75" stroke="#848484" stroke-width="3.48718"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </span>
+        </div>
+    </div>
+    <div class="notification-bar">
+        <span class="heading">Notification
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 48 48" fill="none">
+                <path
+                    d="M27.46 42C27.1084 42.6062 26.6037 43.1093 25.9965 43.4591C25.3892 43.8088 24.7008 43.9929 24 43.9929C23.2992 43.9929 22.6108 43.8088 22.0035 43.4591C21.3963 43.1093 20.8916 42.6062 20.54 42M36 16C36 12.8174 34.7357 9.76516 32.4853 7.51472C30.2348 5.26428 27.1826 4 24 4C20.8174 4 17.7652 5.26428 15.5147 7.51472C13.2643 9.76516 12 12.8174 12 16C12 30 6 34 6 34H42C42 34 36 30 36 16Z"
+                    stroke="#8B8B8B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </span>
+        <span class="message">
+            0 Round(s) <br>Completed!
+        </span>
+        <button id="Hari-Bol">HariBol!</button>
+    </div>
+    <!-- <div class="further-conc">
+        <span class="title">
+            Enjoy Mahamantra<br>with:
+            <svg id="more" xmlns="http://www.w3.org/2000/svg" width="31" height="34" viewBox="0 0 31 34" fill="none">
+                <path d="M7.75 12.75L15.5 21.25L23.25 12.75" stroke="#848484" stroke-width="3.48718" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </span>
+        <br>
+        <span class="white-noise">
+            1. White Noise
+        </span>
+        <br>
+        <audio id="m1" src="Lee Hyori - 10 MINUTES.mp3" controls loop></audio>
+        <br>
+
+        <span class="white-noise">
+            2.Recite with<br>Srila Prabhupada
+        </span>
+        <br>
+        <audio src="Lee Hyori - 10 MINUTES.mp3" controls loop></audio>
+        <span class="recite-along"><u>Recite Along</u></span>
+        <span class="japa" id="onebyfour">
+            || हरे कृष्ण हरे कृष्ण
+        </span>
+        <span class="japa" id="twobyfour">
+            कृष्ण कृष्ण हरे हरे
+        </span>
+        <span class="japa" id="threebyfour">
+            हरे राम हरे राम
+        </span>
+        <span class="japa" id="fourbyfour">
+            राम राम हरे हरे ||
+        </span>
+         
+
+    </div> -->
+
+    <span class="reload">
+        Go back to Japa Counter
+
+    </span>
+</body>
+<script src="japa_counter.js"></script>
+
+</html>

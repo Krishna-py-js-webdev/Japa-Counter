@@ -1,0 +1,339 @@
+*{
+    font-family: "Istok Web";
+    background: #FF8818;
+    user-select: none; /* Prevents selection */
+
+}
+.head{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.head svg{
+    margin-bottom: 4vh;
+}
+.upper-part{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 25vw;
+    background-color: white;
+    padding-left: 1vh;
+    padding-right:1vh;
+    margin:auto;
+    padding-bottom: 2vh;
+    border-radius: 2vh;
+    border:2px solid black;
+    align-items: center;
+    /* align-self:stretch; */
+    border-radius: 42.498px;
+    border: 8px solid #76B8B2;
+    box-shadow: 0px 4.146px 82.922px 0px rgba(0, 0, 0, 0.25);
+}
+.head img{
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    /* display:flex; */
+    /* margin:auto none; */
+    background-color: transparent;
+    padding-top:2vh;
+    position: relative;
+    /* left:7vw; */
+    /* border:2px solid black; */
+}
+.head h2{
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+    margin-left :0px;
+    margin-right: 0px;
+    font-size: 4vh;
+    padding-left:0px;
+    background-color: transparent;
+}
+.counter{
+    text-align: center;
+    font-size: 2vh;
+    position: relative;
+    top:-10px;
+    background-color: white;
+}
+.counter span{
+    background-color: white;
+    font-size:5vh;
+}
+.counter hr{
+    display: block;
+    width: 20vw;
+    
+    height: 1px;
+    border: 0;
+    border-top: 2.2px solid #000000;
+    background-color:transparent;
+    /* margin-left:39vw;
+    padding: 0; */
+}
+
+.concentration {
+    text-align: center;
+    font-size: 3vh;
+    background-color: transparent;
+}
+.concentration span{
+    position: relative;
+    top: -5px;
+    font-family: "Joan";
+    background-color: transparent;
+}
+.concentration svg{
+    position: relative;
+    top:5px;
+}
+.notification-bar {
+    background-color: #ffffff;
+    width: 20vw;
+    min-height: 40vh;
+    margin: auto;
+    border-radius: 12px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    position: relative;
+    top: -70vh;
+    background: #FFF;
+    box-shadow: 0px 3px 60px 0px rgba(0, 63, 254, 0.70);
+    display: flex; /* Keep this but control opacity */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    visibility: visible;
+    z-index: 1;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(-20px); /* Start slightly above */
+    transition: opacity 5s ease-in, transform 5s ease-in;
+ }
+ 
+
+
+.concentration svg{
+    background-color: transparent;
+    transform:rotateZ(270deg);
+}
+.counter span b {
+    background-color: transparent;
+}
+.notification-bar .heading{
+    font-family: "Poppins";
+    font-size: 4vh;
+    font-weight: 600;
+    background-color: white;
+}
+.notification-bar .heading svg{
+    background-color: transparent;
+    position: relative;
+    top: 0.5vh;
+    width:3vw;
+    height: 4vh;
+}
+.notification-bar .message{
+    background-color: transparent;
+    /* width:20vw; */
+    text-align: center;
+    font-size:3vh;
+    font-weight: 600;
+    color:grey;
+    font-family: "Poppins";
+}
+
+.notification-bar #Hari-Bol{
+    display: inline-block;
+    padding: 12px 54px 11px 55px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins";
+    background-color: #6F00FF;
+    color:white;
+    border-radius: 10px;
+    border: none;
+}
+.notification-bar #Hari-Bol:hover{
+    cursor: pointer;
+    background-color: white;
+    color:#6F00FF;
+    border: none;
+    box-shadow: 0px 2px 40px 0px rgba(101, 101, 101, 0.7);
+}
+.further-conc {
+    /* border:2px solid black; */
+    /* visibility: hidden; */
+    display: flex;
+    justify-content: space-between;
+    padding:2vh;
+    background-color:transparent;
+    flex-direction: column;
+    align-items: center;
+    width:24vw;
+    margin:0px;
+    text-align: center;
+    /* left:24vw; */
+    z-index:0;
+}
+.further-conc .title{
+    font-family: "Joan";
+    font-size:5vh;
+}
+.further-conc .white-noise{
+    font-family: "Poppins";
+    font-size:4vh;
+    font-weight: bold;
+    color:#606060;
+}
+
+.further-conc span{
+    background-color: transparent;
+}
+
+.further-conc svg{
+    background: transparent;
+}
+.japa{
+    font-size: 3vh;
+    font-weight: 600;
+}
+#onebyfour{
+    display: inline-block;
+    margin-top: 3vh;
+}
+.recite-along{
+    font-size:25px;
+    /* display: inline-block; */
+    margin-top: 1vh;
+    font-style: italic;
+    background-color: white;
+}
+.recite-along u{
+    background-color: white;
+}
+
+#more{
+    transition: ease-out 0.5s;
+}
+.reload{
+    text-align: center;
+    font-weight: bold;
+    display:flex;
+    flex-direction:row;
+    /* flex-wrap: wrap; */
+    /* padding:0vw 2vw; */
+    /* border: 2px solid black; */
+    align-content: center;
+    justify-content: center;
+    /* margin-left:40vw;*/
+    margin-top: 2vh; 
+    margin-bottom: 2vh;
+    font-family: "Poppins";
+    color: #ffffff;
+    background-color: transparent;
+}
+#reload{
+    /* margin-left:1vw;/ */
+    background-color: transparent;
+    
+}
+audio{
+    width: 20vw;
+    height: 90px;
+    position: relative;
+    top:-4vh;
+    background-color: transparent;
+}
+audio::-webkit-media-controls-panel{
+background: linear-gradient(90deg, rgba(119, 177, 249, 0.60) 0%, rgba(179, 196, 221, 0.60) 106.17%);
+padding-left: 10px;
+padding-right: 10px;
+}
+audio::-webkit-media-controls-play-button{
+background-color: transparent;
+fill: #FFF;
+filter: drop-shadow(0px 3px 60px rgba(0, 85, 255, 0.28));
+border-radius: 50%;
+}
+audio::-webkit-media-controls-current-time-display{
+color: #000000;
+font-family: "Poppins";
+margin-left: 10px;
+}
+audio::-webkit-media-controls-time-remaining-display{
+color: #000000;
+margin-right: 10px;
+font-family: "Poppins";
+}
+audio::-webkit-media-controls-timeline{
+border-radius: 40px;
+/* background-color: rgb(0, 128, 255); */
+}
+audio::-webkit-media-controls-volume-slider{
+/* background-color: rgb(34, 231, 8); */
+border-radius: 50px;
+padding-left: 10px;
+padding-right: 10px;
+}
+audio::-webkit-media-controls-mute-button{
+/* background-color: rgb(147, 10, 221); */
+border-radius: 50%;
+}
+
+#counting{
+    display:flex;
+    flex-direction: row;
+    padding:none 1vw;
+    margin-top:3vh;
+    justify-content: center;
+    border-radius: 20px;
+    border: 3px solid #a25bb8;
+}
+#counting li{
+    margin-left:1vw;
+    color:gray;
+    font-family: "Poppins";
+    background-color: transparent;
+}
+#back-btn{
+    z-index:2;
+}
+
+@media (max-width: 1050px) {
+    .notification-bar {
+        display: none;
+        flex-direction: column;
+        width: 40vw;
+        left:0vw;
+    }
+    .upper-part{
+        width: 70vw;
+    }
+    .notification-bar svg{
+        width:15px;
+        height: 15px;
+    }
+    .notification-bar .message{
+        font-size: 4vw;
+    }
+    .notification-bar #Hari-Bol {
+        padding: 2px 10px 5px 10px;
+    }
+
+    audio{
+        width: 42vw;
+    }
+    .further-conc .title {
+        font-family: "Joan";
+        font-size: 5vh;
+    }
+    .reload{
+        left:25vw;
+    }
+
+  }
