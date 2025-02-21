@@ -35,6 +35,7 @@ addSingle.onclick = () => {
         localStorage.setItem("Japa Count",`${count2}`)
         message.innerHTML = `${count2} Round(s) <br> Completed!`;
         noti_panel.style.display = "flex";
+        noti_panel.style.visibility = "visibility";
         mala_count.innerHTML = `<b>${count2}<b>`;
     }
 };
